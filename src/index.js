@@ -4,8 +4,7 @@ export default {
 
     // CORS + Origin gate
     const ALLOWED_ORIGINS = [
-      "http://localhost:5000",             // adjust to your actual local dev port
-      "http://localhost:8080",
+      "https://pookalamai.web.app"
       // add your deployed Flutter Web hosting origin here before final submission
     ];
     const origin = request.headers.get("Origin") || "";
