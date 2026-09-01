@@ -38,7 +38,7 @@ Firestore security rules are locked to `allow read: if true; allow write: if fal
 
 - Gemini API key and Google service account credentials are stored as Cloudflare **encrypted secrets**, never in code or git history
 - All AI-returned scores are validated server-side
-- CORS is restricted via an `ALLOWED_ORIGINS` allowlist — only the deployed Flutter Hosting URL (and local dev ports) can call this Worker
+- CORS is restricted via an `ALLOWED_ORIGINS` allowlist — only the deployed Flutter Hosting URL can call this Worker
 
 ## The Judging Prompt
 
