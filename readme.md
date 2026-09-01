@@ -8,7 +8,6 @@ The secure backend for [Pookalam.ai](https://github.com/Technosaurus8/PookalamAI
 2. Sends it to **Gemini** for scoring on symmetry, color harmony, and creativity
 3. Validates the returned score (0–100)
 4. Writes the result to **Firestore** using a service account and OAuth token bypassing the client entirely
-5. Returns the score/comment to the client for display
 
 ## 🏗️ Architecture
 
